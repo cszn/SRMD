@@ -1,5 +1,3 @@
-# SRMD
-
 # Learning a Single Convolutional Super-Resolution Network for Multiple Degradations
 
 
