@@ -66,7 +66,7 @@ and even spatially variant degradations.
 - [Cuda](https://developer.nvidia.com/cuda-toolkit-archive)-8.0 & [cuDNN](https://developer.nvidia.com/cudnn) v-5.1
 - [MatConvNet](http://www.vlfeat.org/matconvnet/)
 
-  or
+ or
 
 - MATLAB R2015b 
 ```
