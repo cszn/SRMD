@@ -29,9 +29,9 @@ and even spatially variant degradations.
 
 
 
-# Test SRMD models
+# SRMD models
 
-- bicubic degradation
+- Bicubic Degradation
 ```
  `Demo_bicubic_degradation_SRMD.m` is the testing demo of SRMD for the widely-used bicubic degradation.
  `Demo_bicubic_degradation_SRMDNF.m` is the testing demo of SRMDNF for the widely-used bicubic degradation.
