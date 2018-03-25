@@ -1,5 +1,5 @@
-# Learning a Single Convolutional Super-Resolution Network for Multiple Degradations
 
+# Learning a Single Convolutional Super-Resolution Network for Multiple Degradations
 
 # Abstract
 Recent years have witnessed the unprecedented success of deep convolutional neural networks (CNNs) in single image super-resolution (SISR). However, existing CNN-based SISR methods mostly assume that a low-resolution (LR) image is bicubicly downsampled from a high-resolution (HR) image, thus inevitably giving rise to poor performance when the true degradation does not follow this assumption. Moreover, they lack scalability in learning a single model to deal with multiple degradations. To address these issues, we propose a dimensionality stretching strategy that enables a single convolutional super-resolution network to take two key factors of the SISR degradation process, i.e., blur kernel and noise level, as input. Consequently, the proposed super-resolver can handle multiple and even spatially variant degradations, which significantly improves the practicability. Extensive experimental results on synthetic and real LR images show that the proposed convolutional super-resolution network not only can produce favorable results on multiple degradations but also is computationally efficient, providing a highly effective and scalable solution to practical SISR applications.
@@ -12,19 +12,29 @@ and even spatially variant degradations.
 
 
 # SISR Results
-### Bicubic Degradation
+## Bicubic Degradation
 ![bicubic1](https://github.com/cszn/SRMD/blob/master/figs/bicubic1.png)
 
 ![bicubic2](https://github.com/cszn/SRMD/blob/master/figs/bicubic2.png)
 
+## General Degradation
+The left is the LR image with isotropic Gaussian blur and noise level 50, the right is the super-resolved image by SRMD with scale factor 2.
+
+<img src="figs/butterfly_GT_x2_.png" width="256px"/> <img src="figs/butterfly_GT_x2_2274.png" width="256px"/>
+
+The left is the LR image with isotropic Gaussian blur and noise level 5, the right is the super-resolved image by SRMD with scale factor 3.
+
+<img src="figs/butterfly_GT_x3_.png" width="255px"/> <img src="figs/butterfly_GT_x3_2675.png" width="255px"/>
+
+The left is the LR image with anisotropic Gaussian blur, the right is the super-resolved image by SRMD with scale factor 4.
+
+<img src="figs/butterfly_GT_x4_.png" width="256px"/> <img src="figs/butterfly_GT_x4_2771.png" width="256px"/>
 
 
 ### Real Image SR
 ![realSR1](https://github.com/cszn/SRMD/blob/master/figs/realSR1.png)
 
 ![realSR2](https://github.com/cszn/SRMD/blob/master/figs/realSR2.png)
-
-
 
 
 # SRMD models
