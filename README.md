@@ -29,7 +29,7 @@ The left is the LR image with anisotropic Gaussian blur, the right is the super-
 <img src="figs/butterfly_GT_x4_.png" width="256px"/> <img src="figs/butterfly_GT_x4_2771.png" width="256px"/>
 
 
-### Real Image SR
+## Real Image SR
 ![realSR1](https://github.com/cszn/SRMD/blob/master/figs/realSR1.png)
 
 ![realSR2](https://github.com/cszn/SRMD/blob/master/figs/realSR2.png)
