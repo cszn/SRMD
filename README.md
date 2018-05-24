@@ -34,18 +34,6 @@ The left is the LR image with anisotropic Gaussian blur, the right is the super-
 
 ![realSR2](https://github.com/cszn/SRMD/blob/master/figs/realSR2.png)
 
-Super-resolved image by VDSR with scale factor 3.
-<img src="figs/woman_GT30_VDSR.png" width="684px"/> 
-
-Super-resolved image by SRMD with scale factor 3.
-<img src="figs/woman_GTSRMD_x3.png" width="684px"/>
-
-Super-resolved image by VDSR with scale factor 3.
-<img src="figs/butterfly_GT30_VDSR.png" width="768px"/> 
-
-Super-resolved image by SRMD with scale factor 3.
-<img src="figs/butterfly_GTSRMD_x3.png" width="768px"/>
-
 
 # SRMD models
 
@@ -91,5 +79,13 @@ Super-resolved image by SRMD with scale factor 3.
 Use `res = vl_srmd_matlab(net, input)` instead.
 ```
 
+# Citation
 
-
+```
+@inproceedings{zhang2018learning, 
+title={Learning a Single Convolutional Super-Resolution Network for Multiple Degradations}, 
+author={Zhang, Kai and Zuo, Wangmeng and Zhang, Lei}, 
+booktitle={IEEE Conference on Computer Vision and Pattern Recognition}, 
+year={2018}, 
+}
+```
