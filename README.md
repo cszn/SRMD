@@ -9,6 +9,17 @@ In contrast to other CNN-based SISR methods which only take the LR image as inpu
 the proposed network takes the concatenated LR image and degradation maps as input, thus allowing a single model to manipulate multiple 
 and even spatially variant degradations.
 
+# NTIRE 2018 challenge on image super-resolution
+
+## Track 3: realistic difficult adverse conditions
+
+[Test_Track_3_SRMD_non_blind.m](Test_Track_3_SRMD_non_blind.m) is the testing code for Track 3 of NTIRE 2018 challenge on image super-resolution.
+
+![track3](figs/track3.png)
+
+
+
+
 
 # SISR Results
 ## Bicubic Degradation
