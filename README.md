@@ -38,34 +38,39 @@ The left is the LR image with anisotropic Gaussian blur, the right is the super-
 # SRMD models
 
 - Bicubic Degradation
-```
- `Demo_bicubic_degradation_SRMD.m` is the testing demo of SRMD for the widely-used bicubic degradation.
- `Demo_bicubic_degradation_SRMDNF.m` is the testing demo of SRMDNF for the widely-used bicubic degradation.
-```
+
+ [Demo_bicubic_degradation_SRMD.m](Demo_bicubic_degradation_SRMD.m) is the testing demo of SRMD for the widely-used bicubic degradation.
+ [Demo_bicubic_degradation_SRMDNF.m](Demo_bicubic_degradation_SRMDNF.m) is the testing demo of SRMDNF for the widely-used bicubic degradation.
+
 
 
 - General Degradation
-```
- `Demo_genearal_degradation_SRMD.m` is the testing demo of SRMD for the general degradation.
- `Demo_genearal_degradation_SRMDNF.m` is the testing demo of SRMDNF for the general degradation.
-```
+
+ [Demo_genearal_degradation_SRMD.m](Demo_genearal_degradation_SRMD.m) is the testing demo of SRMD for the general degradation.
+ [Demo_genearal_degradation_SRMDNF.m](Demo_genearal_degradation_SRMDNF.m) is the testing demo of SRMDNF for the general degradation.
+
 
 - Real Application
-```
- `Demo_real_application_SRMD.m` is the testing demo of SRMD for real image SR.
-```
+
+ [Demo_real_application_SRMD.m](Demo_real_application_SRMD.m) is the testing demo of SRMD for real image SR.
+
 
 - Others
-```
- `Demo_degradation_direct_SRMD.m` is the testing demo of SRMD for another widely-used degradation with direct downsampler.
- `Demo_degradation_direct_SRMDNF.m` is the testing demo of SRMD for another widely-used degradation with direct downsampler.
+
+ [Demo_degradation_direct_SRMD.m](Demo_degradation_direct_SRMD.m) is the testing demo of SRMD for another widely-used degradation with direct downsampler.
+ 
+ [Demo_degradation_direct_SRMDNF.m](Demo_degradation_direct_SRMDNF.m) is the testing demo of SRMD for another widely-used degradation with direct downsampler.
  
   A special case of SRMD when scale factor is 1.
- `Demo_denoising_and_deblurring_gray_SRMD.m` is the testing demo of SRMD for grayscale image denoising and deblurring.
- `Demo_denoising_and_deblurring_color_SRMD.m` is the testing demo of SRMD for for color image denoising and deblurring.
- `Demo_real_application_denoising_and_deblurring_gray.m` is the testing demo of SRMD for real grayscale image denoising and deblurring.
- `Demo_real_application_denoising_and_deblurring_color.m` is the testing demo of SRMD for real color image denoising and deblurring.
-```
+  
+ [Demo_denoising_and_deblurring_gray_SRMD.m](Demo_denoising_and_deblurring_gray_SRMD.m) is the testing demo of SRMD for grayscale image denoising and deblurring.
+ 
+ [Demo_denoising_and_deblurring_color_SRMD.m](Demo_denoising_and_deblurring_color_SRMD.m) is the testing demo of SRMD for for color image denoising and deblurring.
+ 
+ [Demo_real_application_denoising_and_deblurring_gray.m](Demo_real_application_denoising_and_deblurring_gray.m) is the testing demo of SRMD for real grayscale image denoising and deblurring.
+ 
+ [Demo_real_application_denoising_and_deblurring_color.m](Demo_real_application_denoising_and_deblurring_color.m) is the testing demo of SRMD for real color image denoising and deblurring.
+
 
 # Requirements and Dependencies
 - MATLAB R2015b
