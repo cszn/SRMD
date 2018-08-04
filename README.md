@@ -17,8 +17,11 @@ and even spatially variant degradations.
 
 ![track3](figs/track3.png)
 
+### An example. 
 
+The image size of the LR image is 510x405, the scale factor is 4.
 
+<img src="figs/0991x4d.png" width="850px"/> <img src="figs/0991x4d_srmd.png" width="850px"/>
 
 
 # SISR Results
