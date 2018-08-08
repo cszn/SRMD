@@ -9,17 +9,17 @@ In contrast to other CNN-based SISR methods which only take the LR image as inpu
 the proposed network takes the concatenated LR image and degradation maps as input, thus allowing a single model to manipulate multiple 
 and even spatially variant degradations.
 
-# NTIRE 2018 challenge on image super-resolution [知乎](https://zhuanlan.zhihu.com/p/39930043)
+# NTIRE 2018 Challenge on Image Super-Resolution [知乎](https://zhuanlan.zhihu.com/p/39930043)
 
-## Track 3: realistic difficult adverse conditions
+## Track 3: Realistic Difficult Adverse Conditions
 
 [Test_Track_3_SRMD_non_blind.m](Test_Track_3_SRMD_non_blind.m) is the testing code for Track 3 of NTIRE 2018 challenge on image super-resolution.
 
-### Result of SRMD
+### PSNR/SSIM Result of SRMD
 
 ![track3](figs/track3.png)
 
-### Result of SRMD
+### Visual Result of SRMD
 
 The image size of the LR image is 510x405, the scale factor is 4.
 
@@ -27,6 +27,7 @@ The image size of the LR image is 510x405, the scale factor is 4.
 
 
 # SISR Results
+
 ## Bicubic Degradation
 ![bicubic1](https://github.com/cszn/SRMD/blob/master/figs/bicubic1.png)
 
