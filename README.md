@@ -15,11 +15,11 @@ and even spatially variant degradations.
 
 [Test_Track_3_SRMD_non_blind.m](Test_Track_3_SRMD_non_blind.m) is the testing code for Track 3 of NTIRE 2018 challenge on image super-resolution.
 
-### Result 
+### Result of SRMD
 
 ![track3](figs/track3.png)
 
-### An example. 
+### Result of SRMD
 
 The image size of the LR image is 510x405, the scale factor is 4.
 
