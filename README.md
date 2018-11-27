@@ -3,6 +3,10 @@
 # Abstract
 Recent years have witnessed the unprecedented success of deep convolutional neural networks (CNNs) in single image super-resolution (SISR). However, existing CNN-based SISR methods mostly assume that a low-resolution (LR) image is bicubicly downsampled from a high-resolution (HR) image, thus inevitably giving rise to poor performance when the true degradation does not follow this assumption. Moreover, they lack scalability in learning a single model to deal with multiple degradations. To address these issues, we propose a dimensionality stretching strategy that enables a single convolutional super-resolution network to take two key factors of the SISR degradation process, i.e., blur kernel and noise level, as input. Consequently, the proposed super-resolver can handle multiple and even spatially variant degradations, which significantly improves the practicability. Extensive experimental results on synthetic and real LR images show that the proposed convolutional super-resolution network not only can produce favorable results on multiple degradations but also is computationally efficient, providing a highly effective and scalable solution to practical SISR applications.
 
+# Training Codes
+
+[SRMD_MatConvNet](https://github.com/cszn/SRMD/tree/master/TrainingCodes)
+
 # Network Architecture
 ![architecture](https://github.com/cszn/SRMD/blob/master/figs/architecture.png)
 In contrast to other CNN-based SISR methods which only take the LR image as input and lack scalability to handle other degradations, 
@@ -104,10 +108,11 @@ Use `res = vl_srmd_matlab(net, input)` instead.
 # Citation
 
 ```
-@inproceedings{zhang2018learning, 
-title={Learning a Single Convolutional Super-Resolution Network for Multiple Degradations}, 
-author={Zhang, Kai and Zuo, Wangmeng and Zhang, Lei}, 
-booktitle={IEEE Conference on Computer Vision and Pattern Recognition}, 
-year={2018}, 
+@inproceedings{zhang2018learning,
+  title={Learning a single convolutional super-resolution network for multiple degradations},
+  author={Zhang, Kai and Zuo, Wangmeng and Zhang, Lei},
+  booktitle={IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={3262-3271},
+  year={2018}
 }
 ```
