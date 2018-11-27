@@ -19,6 +19,7 @@ for i = 1:num_samples
     theta = pi*rand(1);
     l1    = 0.1+9.9*rand(1);
     l2    = 0.1+(l1-0.1)*rand(1);
+    % l2 = l1; % you will get isotropic Gaussian kernel
     
     kernel =  anisotropic_Gaussian(ksize,theta,l1,l2);
     vec_kernels(:,i) = kernel(:);
