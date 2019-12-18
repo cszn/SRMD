@@ -1,5 +1,9 @@
 # Learning a Single Convolutional Super-Resolution Network for Multiple Degradations
 
+# New training and testing codes ([PyTorch](https://github.com/cszn/KAIR)) - 18/12/2019
+- [main_train_srmd.py](https://github.com/cszn/KAIR/blob/master/main_train_srmd.py)
+- [main_test_srmd.py](https://github.com/cszn/KAIR/blob/master/main_test_srmd.py)
+
 # Abstract
 Recent years have witnessed the unprecedented success of deep convolutional neural networks (CNNs) in single image super-resolution (SISR). However, existing CNN-based SISR methods mostly assume that a low-resolution (LR) image is bicubicly downsampled from a high-resolution (HR) image, thus inevitably giving rise to poor performance when the true degradation does not follow this assumption. Moreover, they lack scalability in learning a single model to deal with multiple degradations. To address these issues, we propose a dimensionality stretching strategy that enables a single convolutional super-resolution network to take two key factors of the SISR degradation process, i.e., blur kernel and noise level, as input. Consequently, the proposed super-resolver can handle multiple and even spatially variant degradations, which significantly improves the practicability. Extensive experimental results on synthetic and real LR images show that the proposed convolutional super-resolution network not only can produce favorable results on multiple degradations but also is computationally efficient, providing a highly effective and scalable solution to practical SISR applications.
 
