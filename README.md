@@ -1,6 +1,7 @@
 # Learning a Single Convolutional Super-Resolution Network for Multiple Degradations
 
-# New training and testing codes ([PyTorch](https://github.com/cszn/KAIR)) - 18/12/2019
+# [PyTorch training and testing code](https://github.com/cszn/KAIR) - 18/12/2019
+`I recommend to use the PyTorch code for training and testing. The model parameters of MatConvnet and PyTorch are same.`
 - [main_train_srmd.py](https://github.com/cszn/KAIR/blob/master/main_train_srmd.py)
 - [main_test_srmd.py](https://github.com/cszn/KAIR/blob/master/main_test_srmd.py)
 
